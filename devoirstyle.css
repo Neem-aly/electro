@@ -1,0 +1,81 @@
+*{
+	transition-property: All;
+	/*pour celectionne tout du tout */
+	transition-duration: 1s;
+}
+
+:root{
+	--color-principale: blue ;
+	--taille-pargr:1.2em;
+}
+h1{
+	font-family: courier new
+}
+body{
+	background-image:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url('img/bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: fixed;
+	color: white;
+}
+
+.bloc{
+	background-image: url('img/img1.jpg');
+	height: 500px;
+}
+.three{
+	text-align: center;
+}
+p{
+	font-size: var(--taille-pargr)
+}
+.first{
+	border-style: solid;
+	border-color: yellow
+	border-radius: 50px 50px 50px 50px;
+	box-shadow: black
+}
+h1{
+	font-size: 3em;
+	margin-top: 350px
+}
+h1,.first,.one,h2 {
+	text-align: center 
+}
+
+.produit{
+	margin-top: 300px;
+}
+strong{
+	color:var(--color-principale);
+}
+a{
+	text-decoration: none;
+	background-color: var(--color-principale);
+	color:  white;
+	padding: 20px;
+	border-radius: 20px;
+	text-align: center;
+
+	line-height: 200px;
+}
+ol >li{
+	color: black;
+	list-style: square;
+}
+ol >li:hover{
+	border-left: 10px solid var(--color-principale);
+	color: var(--color-principale);
+	list-style: none;
+}
+h2{
+	color: var(--color-principale);
+	font-size: 2.5em;
+	font-family: impact;
+}
+h2{
+	color: var(--color-principale);
+	font-size: 2em;
+	font-family: cursive;
+
+}
